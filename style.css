@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.container form {
+  border: 2px solid green;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.container form div {
+  width: 86.84864%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container form div input[type=text] {
+  padding: 7px 10px 7px 0;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid green;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.container form div input[type=button] {
+  font-size: 16px;
+  padding: 7px 0;
+  width: 120px;
+  color: honeydew;
+  background-color: green;
+  border: 2px solid green;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.container form div input[type=button]:hover {
+  background-color: #1a618a;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 2px solid #1a618a;
+}
+/*# sourceMappingURL=style.css.map */
