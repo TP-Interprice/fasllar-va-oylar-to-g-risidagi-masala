@@ -44,7 +44,7 @@ body {
   border-bottom-left-radius: 5px;
 }
 
-.container form div input[type=button] {
+.container form div input[type=submit] {
   font-size: 16px;
   padding: 7px 0;
   width: 120px;
@@ -55,7 +55,7 @@ body {
   border-bottom-right-radius: 5px;
 }
 
-.container form div input[type=button]:hover {
+.container form div input[type=submit]:hover {
   background-color: #1a618a;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
